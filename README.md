@@ -2,11 +2,11 @@
 Este repositório irá armazenar projetos de implementações de dispositivos, firmwares e seus esquemas eletrônicos, que utilizam seus microcontroladores como clientes de serviço MQTT.
 O microcontrolador conectará a rede WIFI e a um Servidor MQTT. Ele percorrerá, quando houver, todos os sensores e atuadores conectados ao dispositivo e publicará seus valores no Servidor MQTT.
 As mensagens publicadas pelo dispositivo podem ser enviadas nos seguintes formatos:
-	* simple (Valor bruto)
-	* JSON
+* simple (Valor bruto)
+* JSON
 
 ## Microcontroladores testados
-	* ESP8266 (NodeMCU V3 Lolin)
+* ESP8266 (NodeMCU V3 Lolin)
 
 ### Estrutura dos diretórios:
 O nome do diretório com o projeto do dispositivo indica a controladora, sensores ou acionadores de atuador utilizados e versão com separadores distintos. Por exemplo, no diretório ```ESP8266_NodeMCU_V3_Lolin]&(DHT11)%{V1.2}```, pode-se extrair as seguintes informações:
