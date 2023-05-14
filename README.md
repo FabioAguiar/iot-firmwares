@@ -16,10 +16,10 @@ O nome do diretório com o projeto do dispositivo indica a controladora, sensore
 
 ### Versões: 
 Os projetos estão dividios em versões para a realização de testes modulares. Abaixo a descrição de cada versão:
-- [x] **VTeste**: <br />
+- [x] **VTeste**:  
 Este firmware é ideal para realizar testes rápidos de conexão com a rede wifi e com o servidor Borker, sem que haja a necessidade de conectar sensores para verificar se esta enviando mensagens corretamente.
 O dispositivo simula um sensor de temperatura e umidade e atribui valores gerados aleatoriamente para substituir as medições.
-- [x] **V1.1**: <br />
+- [x] **V1.1**:  
 Todos os códigos fonte de versão ```1.1``` referem-se a implementações de dispositivos que possuem apenas o sensor ou acionador de atuador conectado.
 Esta versão possibilita realizar testes simples para verificações rápidas do funcionamento dos componentes.
 - [x] **V1.2**: <br />
