@@ -38,12 +38,12 @@ O tópico é montado a partir de uma estrutura pré-definida e dividida em barra
 
 Caso o tópico esteja com o formato de mensagem em ```JSON``` ao invés de ```simple```, a mensagem enviada será um JSON com as informações que estão no tópico e a inclusão do dado medido. 
 Por exemplo, no tópico ```Home/ESP8266/JSON/umidade/DHT11```, a mensagem enviada está no seguinte formato:
-&nbsp;
-{	&nbsp;
-	'local' : 'Home',  &nbsp;
-	'device_name' : 'ESP8266',  &nbsp;
-	'sensor_name' : 'DHT11',  &nbsp;
-	'type' : 'umidade',  &nbsp;
-	'data' : '16.00',  &nbsp;
-	'date_time' : '14/5/2023 10:16:46' &nbsp;
-}	&nbsp;
+<br />
+{	<br />
+	'local' : 'Home',  <br />
+	'device_name' : 'ESP8266',  <br />
+	'sensor_name' : 'DHT11',  <br />
+	'type' : 'umidade',  <br />
+	'data' : '16.00',  <br />
+	'date_time' : '14/5/2023 10:16:46' <br />
+}	<br />
