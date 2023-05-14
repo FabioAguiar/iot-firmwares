@@ -16,17 +16,25 @@ O nome do diretório com o projeto do dispositivo indica a controladora, sensore
 
 ### Versões: 
 Os projetos estão dividios em versões para a realização de testes modulares. Abaixo a descrição de cada versão:
-- [x] **VTeste**: Este firmware é ideal para realizar testes rápidos de conexão com a rede wifi e com o servidor Borker, sem que haja a necessidade de conectar sensores para verificar se esta enviando mensagens corretamente.
+- [x] **VTeste**: <br />
+Este firmware é ideal para realizar testes rápidos de conexão com a rede wifi e com o servidor Borker, sem que haja a necessidade de conectar sensores para verificar se esta enviando mensagens corretamente.
 O dispositivo simula um sensor de temperatura e umidade e atribui valores gerados aleatoriamente para substituir as medições.
-- [x] **V1.1**: Todos os códigos fonte de versão ```1.1``` referem-se a implementações de dispositivos que possuem apenas o sensor ou acionador de atuador conectado.
+- [x] **V1.1**: <br />
+Todos os códigos fonte de versão ```1.1``` referem-se a implementações de dispositivos que possuem apenas o sensor ou acionador de atuador conectado.
 Esta versão possibilita realizar testes simples para verificações rápidas do funcionamento dos componentes.
-- [x] **V1.2**: RTC
-- [ ] **V1.3**: SD Card
-- [ ] **V2.0**: Duas cabeças pensam melhor que uma. A versão ```2.0``` refere-se a implementação de um dispositivo que realiza uma comunicação estável entre dois controladores. 
+- [x] **V1.2**: <br />
+RTC
+- [ ] **V1.3**: <br />
+SD Card
+- [ ] **V2.0**: <br />
+Duas cabeças pensam melhor que uma. A versão ```2.0``` refere-se a implementação de um dispositivo que realiza uma comunicação estável entre dois controladores. 
 Nesta versão é possível realizar testes rápidos de comunicação entre microcontroladoras.
-- [ ] **V2.1**: Dispositivo de multicontroladores com sensores ou acionador de atuador conectado.
-- [ ] **V2.2**: Dispositivo de multicontroladores com sensores ou acionador de atuador conectado e RTC
-- [ ] **V2.3**: Dispositivo de multicontroladores com sensores ou acionador de atuador conectado e RTC SD Card
+- [ ] **V2.1**: <br />
+Dispositivo de multicontroladores com sensores ou acionador de atuador conectado.
+- [ ] **V2.2**: <br />
+Dispositivo de multicontroladores com sensores ou acionador de atuador conectado e RTC
+- [ ] **V2.3**: <br />
+Dispositivo de multicontroladores com sensores ou acionador de atuador conectado e RTC SD Card
 	
 ### Estrutura dos tópicos e mensagem
 O tópico é montado a partir de uma estrutura pré-definida e dividida em barras '/' no formato String. Por exemplo, no tópico "```Home/ESP8266/simple/umidade/DHT11```":
