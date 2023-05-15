@@ -1,4 +1,4 @@
-# IoT Firmwares
+# IoT Projects
 Este repositório irá armazenar projetos de implementações de dispositivos, firmwares e seus esquemas eletrônicos, que utilizam seus microcontroladores como clientes de serviço MQTT.
 O microcontrolador conectará a rede WIFI e a um Servidor MQTT. Ele percorrerá, quando houver, todos os sensores e atuadores conectados ao dispositivo e publicará seus valores no Servidor MQTT.
 As mensagens publicadas pelo dispositivo podem ser enviadas nos seguintes formatos:
